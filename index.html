@@ -1,5 +1,19 @@
 <!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+
 <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
 
 
@@ -24,7 +38,14 @@
 <img src="images/logo4.png" alt="logo3.png" border="0"></a>
 
 ‎ ‎<script async src="https://cse.google.com/cse.js?cx=005263992650022657200:0c7ej6kr6ek"></script> 
-<div class="gcse-search"></div> <p>Free Search Engine </p>
+<div class="gcse-search"></div> <p>Free Search Engine </p> <button onclick="myFunction()">Dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 ‎ ‎ ‎ ‎ ‎ ‎ ‎
   
  <iframe src="https://www.euronews.com/embed/timeline" scrolling="no" style="border:none; min-height:425px; width:100%; height:100%;"></iframe>
