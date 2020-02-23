@@ -70,7 +70,18 @@
 <script src="js/scripts.js"></script> 
  
  <script type="text/javascript">
-        Appcues.anonymous();
+        window.Appcues.identify(
+  "<<< USER_ID >>>", // unique, required
+  {
+
+    // recommended (optional) properties
+
+    createdAt: 1566932390, // Unix timestamp of user signup date
+    purchasedAd: 1566932395, // Unix timestamp of account purchase date (leave null if empty)
+    planTier: "Standard", // Current user’s plan tier
+    role: "Admin", // Current user’s role or permissions
+    accountId: "5643", // Current user's account ID
+    firstName: "user", // current user's first name
     </script>
  
  <!-- MENU start -->
