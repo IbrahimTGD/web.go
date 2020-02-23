@@ -13,6 +13,20 @@
 <head> 
  
 <script src="//fast.appcues.com/66994.js"></script>
+ window.Appcues.identify(
+ 
+  "<<< USER_ID >>>", // unique, required
+  {
+
+    // recommended (optional) properties
+
+    createdAt: 1566932390, // Unix timestamp of user signup date
+    purchasedAd: 1566932395, // Unix timestamp of account purchase date (leave null if empty)
+    planTier: "Standard", // Current user’s plan tier
+    role: "Visitor", // Current user’s role or permissions
+    accountId: "1234", // Current user's account ID
+    firstName: "User", // current user's first name
+
  
  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
