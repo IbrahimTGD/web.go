@@ -195,11 +195,13 @@ window.smartsupp||(function(d) {
   analytics.page();
   }}();
 </script>
-
+ 
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
  </head> 
 <body> 
  
- <h2 onClick={() => console.log ('clicked') }}>Login</h2>
+<div data-netlify-identity-menu></div>
+ <div data-netlify-identity-button>Login with Netlify Identity</div>
 
 <script type='text/javascript' charset='UTF-8' src="//cdn.ringcaptcha.com/widget/v2/bundle.min.js"></script>
  
