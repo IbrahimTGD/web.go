@@ -1,42 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="
-            http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-       <loc>https://tgdsearch.netlify.com/</loc>
-       <lastmod>2020-02-21T12:09:35+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+    <loc>https://tgdsearch.netlify.com/</loc>
+    <lastmod>2020-03-07</lastmod>
   </url>
   <url>
-       <loc>https://tgdsearch.netlify.com/privacy.html</loc>
-       <lastmod>2020-02-21T12:09:35+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://tgdsearch.netlify.com/codeofconduct.html</loc>
+    <lastmod>2020-03-07</lastmod>
   </url>
   <url>
-       <loc>https://tgdsearch.netlify.com/terms.html</loc>
-       <lastmod>2020-02-21T12:09:35+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://tgdsearch.netlify.com/terms.html</loc>
+    <lastmod>2020-03-07</lastmod>
   </url>
   <url>
-       <loc>https://tgdsearch.netlify.com/cookies.html</loc>
-       <lastmod>2020-02-21T12:09:35+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://tgdsearch.netlify.com/</loc>
+    <lastmod>2020-03-07</lastmod>
   </url>
   <url>
-       <loc>https://tgdsearch.netlify.com/codeofconduct.html</loc>
-       <lastmod>2020-02-21T12:09:35+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://tgdsearch.netlify.com/cookies.html</loc>
+    <lastmod>2020-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://tgdsearch.netlify.com/privacy.html</loc>
+    <lastmod>2020-03-07</lastmod>
   </url>
 </urlset>
+<!--<guid value="4676e8f2-2a7c-41a3-90cb-b1ac9bbee439" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
