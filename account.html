@@ -21,6 +21,29 @@
   gtag('config', 'UA-153430316-3');
 </script>
 
+ <script>
+  UPLOADCARE_PUBLIC_KEY = '20da1d1da824573634cf';
+</script>
+
+<script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+ 
+ <style>
+  .uploader-button .uploadcare--widget__button_type_open {
+    background-color: #5882e7;
+  }
+</style>
+
+<script>
+  UPLOADCARE_LOCALE_TRANSLATIONS = {
+    buttons: {
+      choose: {
+        files: {
+          one: 'Upload Profile'
+        }
+      }
+    }
+  }
+</script>
  
  
  <!-- Smartsupp Live Chat script -->
@@ -317,6 +340,13 @@ body {
 
     <div data-netlify-identity-menu></div>
      </div>
+     
+     <span class="uploader-button">
+  <input 
+    type="hidden"
+    role="uploadcare-uploader"
+    data-tabs="file camera url facebook instagram dropbox gdrive gphotos onedrive" />
+</span>
  <right><p>  Profile made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p> </right>
      <div id="google_translate_element"></div>
 
